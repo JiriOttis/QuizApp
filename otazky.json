@@ -1,0 +1,292 @@
+[
+  {
+    "otazka": "Jak se jmenoval pokus LG o telefon s 3D displejem?",
+    "odpovedi": ["Optimus 3D", "3D Now", "3D Pro", "EVO 3D"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Kdo je nynější CEO Applu?",
+    "odpovedi": ["Steve Jobs", "Bill Gates", "Tim Cook", "Elon Musk"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Který z těchto NENÍ typ cryptoměny?",
+    "odpovedi": ["Bitcoin", "Ethereum", "Litecoin", "MyCoin"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Jak se jmenuje první video nahrané na YouTube?",
+    "odpovedi": [
+      "The First Video",
+      "Me at the zoo",
+      "My Snowboarding Skillz",
+      "carrie rides a truck"
+    ],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Jak se jmenuje nejsledovanější video na YouTube?",
+    "odpovedi": [
+      "Despacito",
+      "Baby Shark Dance",
+      "Gangnam Style",
+      "See You Again"
+    ],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Které video je nejdislajkovanější na Youtube?",
+    "odpovedi": ["Bath Song", "Baby", "YouTube Rewind 2018", "Despacito"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Ve kterém roce byl ohlášen první iPhone?",
+    "odpovedi": ["2007", "2008", "2009", "2010"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Jak se jmenuje příslušenství, které se dá koupit k nejnovějším iPadům?",
+    "odpovedi": ["Apple Pen", "Apple Pencil", "Apple Printer", "Apple Carplay"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Ve které barvě NELZE koupit iPhone 12 PRO?",
+    "odpovedi": [
+      "grafitově šedá",
+      "tichomořsky modrá",
+      "zlatá",
+      "smaragdově zelená"
+    ],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Jak se jmenuje poslední verze macOS?",
+    "odpovedi": ["Sierra", "Catalina", "Big Sur", "El Capitan"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Která z těchto značek telefonů NENÍ z Číny?",
+    "odpovedi": ["LG", "OnePlus", "Xiaomi", "Huawei"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Jak se jmenují vlajkové lodě od Samsungu?",
+    "odpovedi": ["Galaxy S", "Galaxy A", "Galaxy Y", "Galaxy X"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "V jaké zemi sídlí značka telefonů Nokia?",
+    "odpovedi": ["Kanada", "USA", "Finsko", "Rusko"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jak se jmenuje řada telefonů od Googlu?",
+    "odpovedi": ["Google One", "Google Edge", "Google Desire", "Google Pixel"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Kolik barev je v logu Googlu?",
+    "odpovedi": ["3", "4", "5", "6"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Kolik ikon aplikací lze maximálně vidět na jedné stránce na Iphonu X?",
+    "odpovedi": ["18", "20", "24", "28"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jaká národní doména je určena pro Německo?",
+    "odpovedi": [".ge", ".de", ".ne", ".me"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Jaká je nejnavštěvovanější česká webová stránka?",
+    "odpovedi": ["seznam.cz", "idnes.cz", "blesk.cz", "alza.cz"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Jak se jmenuje největší česká webová stránka s online aukcemi?",
+    "odpovedi": ["slevomat.cz", "heureka.cz", "kosik.cz", "aukro.cz"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Co se stane, když do Google vyhledavače napíšeme 'askew'?",
+    "odpovedi": [
+      "celá stránka se nahne trochu doprava",
+      "celá stránka se začne třást",
+      "celá stránka začne blikat",
+      "nestane se nic"
+    ],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Kolik profilů lze mít na jednom účtu na Netflixu?",
+    "odpovedi": ["3", "5", "10", "neomezeně"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Který z těchto seriálů NEnalezneme na Netflixu?",
+    "odpovedi": [
+      "Lucifer",
+      "Stranger Things",
+      "Game of Thrones",
+      "Money Heist"
+    ],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Který je nejpoužívanější prohlížeč roku 2020?",
+    "odpovedi": ["Opera", "Firefox", "Safari", "Chrome"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Který prohlížeč má v logu lišku?",
+    "odpovedi": ["Safari", "Chrome", "Edge", "Firefox"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Který zastaralý prohlížeč je předmětem vtipů pro jeho 'rychlost'?",
+    "odpovedi": ["Chrome", "Internet Explorer", "Safari", "Opera"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Která sociální síť má v logu modrého ptáčka?",
+    "odpovedi": ["Facebook", "Snapchat", "Twitter", "Pinterest"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Která sociální síť má v logu bílého ducha?",
+    "odpovedi": ["Snapchat", "Twitter", "TikTok", "Pinterest"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Kolik procent lidí na sociálních mediích používá emoji?",
+    "odpovedi": ["58%", "70%", "85%", "92%"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Na které sociální síti najdeme krátká videa jménem 'Reels'?",
+    "odpovedi": ["Snapchat", "Instagram", "TikTok", "Facebook"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Kdo nebo co je na nejlajkovanější fotce na Instagramu?",
+    "odpovedi": ["vejce", "Cristiano Ronaldo", "Ariana Grande", "auto BMW"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Kterou z těchto aplikací NEvlastní Facebook?",
+    "odpovedi": ["Instagram", "Messenger", "WhatsApp", "Snapchat"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Kdo v ČR má nejvíce followerů na Instagramu?",
+    "odpovedi": ["Leoš Mareš", "Dominik Feri", "Jirka Král", "Ben Christovao"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Jaký tvar má oficiální Twitter účet prezidenta Spojených států?",
+    "odpovedi": [
+      "@PresidentUSA",
+      "@POTUS",
+      "@officialPresidentOfUSA",
+      "@US_President"
+    ],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Kolik znaků lze napsat do jednoho twítu na Twitteru?",
+    "odpovedi": ["100", "140", "280", "420"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jaký je nevíce twítovaný hashtag roku 2020?",
+    "odpovedi": ["#election2020", "#StayHome", "#BlackLivesMatter", "#COVID19"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "V jaké zemi vznikla aplikace TikTok?",
+    "odpovedi": ["Japonsko", "Čína", "USA", "Jižní Korea"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Jak nejvíce dlouhé může být video na TikToku?",
+    "odpovedi": ["7 vteřin", "15 vteřin", "1 minuta", "3 minuty"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jaká země se snaží zablokovat aplikaci TikTok na svém území?",
+    "odpovedi": ["USA", "Čína", "Německo", "Mexiko"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Jak zněl název aplikace TikTok v minulosti?",
+    "odpovedi": ["Musical.ly", "Vine", "Reels", "Dubsmash"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Kolikátý nejbohatší muž světa je Elon Musk?",
+    "odpovedi": ["první", "druhý", "třetí", "pátý"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Jak se jmenuje firma Elona Muska zaměřující se na letectví a kosmonautiku?",
+    "odpovedi": ["Boeing", "SpaceX", "Tesla", "NASA"],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Jak se jmenuje firma Elona Muska zaměřující se na automobilovou výrobu?",
+    "odpovedi": ["Ford", "Jaguar", "Tesla", "SpaceX"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jak se jmenuje streamovací služba od Amazonu?",
+    "odpovedi": ["hulu", "Disney+", "HBO MAX", "Prime Video"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Který Playstation je nejnovější?",
+    "odpovedi": [
+      "Playstation 4",
+      "Playstation 5",
+      "Playstation 6",
+      "Playstation X"
+    ],
+    "spravnaOdpoved": 1
+  },
+  {
+    "otazka": "Která firma vyrábí herní konzole Playstation?",
+    "odpovedi": ["Samsung", "Nintendo", "Microsoft", "Sony"],
+    "spravnaOdpoved": 3
+  },
+  {
+    "otazka": "Druhý Xbox v pořadí podle vydání se jmenoval?",
+    "odpovedi": ["Xbox One", "Xbox", "Xbox 360", "Xbox Series X"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jak se jmenoval snímač pohybu prodávaný ke konzoli Xbox 360?",
+    "odpovedi": ["Xbox Kinect", "Xbox Controller", "Xbox Move", "Xbox Go"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Herní série Mario byla vytvořena jakou herní společností?",
+    "odpovedi": ["Sony", "Electronics Arts", "Nintendo", "Microsoft"],
+    "spravnaOdpoved": 2
+  },
+  {
+    "otazka": "Jak se jmenuje vůbec první videohra?",
+    "odpovedi": ["Pong", "Tetris", "Super Mario", "Space Invaders"],
+    "spravnaOdpoved": 0
+  },
+  {
+    "otazka": "Co v multiplayerové hře znamená označení MVP?",
+    "odpovedi": [
+      "most valuable player",
+      "most viewed play",
+      "minimum value paid",
+      "my valuable pistol"
+    ],
+    "spravnaOdpoved": 0
+  }
+]

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Jiří Ottis" />
+    <title>Kvízová aplikace</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/caa98a0474.js" crossorigin="anonymous"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+      .container {
+        margin: 0 auto;
+        width: 75%;
+        font-family: "Inter", sans-serif;
+      }
+      .quiz {
+        background-color: #44ccff;
+      }
+      .otazka {
+        text-align: center;
+        font-size: 38px;
+        font-weight: bold;
+        padding: 20px;
+      }
+      .odpovedi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .tlacitko {
+        background-color: rgb(255, 244, 227);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5),
+          0 2px 10px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 14px;
+        padding: 25px 10px 10px 10px;
+        margin: 15px 0px;
+        text-align: center;
+        width: 80%;
+        height: 50px;
+        font-size: 25px;
+        cursor: pointer;
+      }
+      .tlacitko:hover {
+        background-color: rgb(147, 200, 209);
+      }
+
+      .oznacOdpoved {
+        background-color: lightblue;
+      }
+
+      .row {
+        display: block;
+        margin: 20px;
+      }
+
+      #buttonPre {
+        float: left;
+      }
+
+      #buttonNext {
+        float: right;
+      }
+      .navigace {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 25px;
+        cursor: pointer;
+        border-radius: 14px;
+        box-shadow: 0px 3px 5px 1px rgb(0, 0, 0, 0.5);
+      }
+      .navigace:hover {
+        background-color: rgb(239, 241, 241);
+      }
+      h1 {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+      }
+      .uspesnost {
+        text-align: center;
+        font-size: 20px;
+      }
+      .vysledek {
+        padding: 10px 20px;
+        font-size: 20px;
+      }
+      #spravne {
+        color: green;
+        padding-left: 10px;
+      }
+      #spatne {
+        color: red;
+        padding-left: 10px;
+      }
+      .nadpis {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 30px;
+        padding: 20px 20px 0px 20px;
+        margin: 0;
+      }
+      p {
+        padding-left: 20px;
+        padding-bottom: 50px;
+        font-size: 18px;
+      }
+      .start {
+        position: absolute;
+        right: 25%;
+        background-color: lightblue;
+        margin: auto;
+        width: 50%;
+        height: 50px;
+        padding: 10px 0px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 14px;
+        box-shadow: 0px 3px 5px 1px rgb(0, 0, 0, 0.5);
+      }
+      .start:hover {
+        background-color: rgb(214, 235, 241);
+      }
+
+      #ukazatelOtazek {
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        padding: 20px;
+        left: 50%;
+        transform: translateX(-55%);
+      }
+
+      .odpocet {
+        position: absolute;
+        left: 85%;
+        top: 5%;
+        color: black;
+        background: white;
+        border: 1px solid #b8daff;
+        height: 45px;
+        padding: 0 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 160px;
+      }
+      .odpocetText {
+        font-weight: bold;
+        font-size: 25px;
+      }
+      .odpocetVteriny {
+        font-size: 25px;
+        width: 125px;
+        height: 30px;
+        color: black;
+        border-radius: 5px;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      .restart {
+        position: absolute;
+        top: 10%;
+        right: 15%;
+        background-color: lightblue;
+        width: 10%;
+        height: 50px;
+        padding: 10px 0px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 14px;
+        box-shadow: 0px 3px 5px 1px rgb(0, 0, 0, 0.5);
+      }
+      .restart:hover {
+        background-color: rgb(214, 235, 241);
+      }
+
+      .containerVysledky {
+        position: absolute;
+        top: 68%;
+        display: flex;
+        flex-direction: column;
+      }
+      #konecneVysledkyNadpis {
+        padding: 20px 0px 10px 0px;
+      }
+      #konecneVysledky {
+        line-height: 5px;
+        font-size: 14px;
+        font-weight: normal;
+      }
+      form {
+        padding: 10px;
+      }
+      form * {
+        margin: 10px 5px 0px 10px;
+      }
+      form label {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      #uspesneUlozeni {
+        font-size: 14px;
+        font-weight: bold;
+        color: darkgreen;
+        padding-left: 20px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz">
+        <div id="output">
+          <div class="odpocet">
+            <div class="odpocetText">Zbývá:</div>
+            <div class="odpocetVteriny">90</div>
+          </div>
+          <h1 class="nadpis">Kvízová aplikace</h1>
+          <h2>Zadání</h2>
+          <p>
+            Kvízová aplikace s možnostmi odpovědí. Uživateli se zobrazí
+            náhodných 10 otázek, každá se 4 možnostmi odpovědi. Na odpovědi bude
+            časový limit.<br />
+            Aplikace na konci kvízu zobrazí výsledné skóre.<br />
+            Otázky a možnosti odpovědi bude získávat pomocí AJAXu ze souboru a
+            bude ukládat výsledky do localstorage.
+            <br />
+            <br />
+            Na zodpovězení 10 otázek máte <b>90 vteřin.<br /><br />
+            Vytvořil Jiří Ottis
+          </p>
+
+          <div class="start">Start</div>
+          <div class="restart">Zpět na start</div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="buttonPre" class="navigace">Předchozí</div>
+        <div id="buttonNext" class="navigace">Další</div>
+      </div>
+      <div class="containerVysledky">
+        <h2 id="konecneVysledkyNadpis">Konečné výsledky</h2>
+        <div id="konecneVysledky"></div>
+      </div>
+    </div>
+    <script src="kvizapp.js"></script>
+  </body>
+</html>
